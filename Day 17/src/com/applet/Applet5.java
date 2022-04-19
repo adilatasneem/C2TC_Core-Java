@@ -8,7 +8,6 @@ import java.awt.Panel;
 import java.awt.TextField;
 
 public class Applet5 extends Applet{
-	
 	Panel1 p1;
 	Panel2 p2;
 
@@ -29,21 +28,21 @@ public class Applet5 extends Applet{
 			p2.c1.setState(true);
 			p2.c2.setState(true);
 			p2.c3.setState(false);
-			p2.t.setText("6000");
+			p2.t.setText("5000");
 		}
 		if(p1.c2.getState())
 		{
 			p2.c1.setState(false);
 			p2.c2.setState(true);
 			p2.c3.setState(true);
-			p2.t.setText("8000");
+			p2.t.setText("7000");
 		}
 		if(p1.c3.getState())
 		{
 			p2.c1.setState(true);
 			p2.c2.setState(false);
 			p2.c3.setState(true);
-			p2.t.setText("9000");
+			p2.t.setText("8000");
 		}
 		return true;
 	}
@@ -62,7 +61,6 @@ class Panel1 extends Panel{
 	
 }
 class Panel2 extends Panel{
-
 	Checkbox c1,c2,c3;
 	TextField t;
 	public Panel2() {
@@ -73,3 +71,5 @@ class Panel2 extends Panel{
 		add(t = new TextField(15));
 	}
 }
+
+
