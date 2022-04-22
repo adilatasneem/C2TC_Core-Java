@@ -1,4 +1,9 @@
 package com.applet;
+
+import com.applet.ExampleDemo;
+import com.applet.Interface1;
+import com.applet.Interface2;
+
 interface Interface1 {
   public void m1(); // interface method
 }
